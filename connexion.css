@@ -11,6 +11,9 @@
     padding-top: 50px;
     gap: 3rem;
 }
+.title{
+    font-family: 'Roboto', sans-serif;
+}
 .section{
  width: 20%;
 }

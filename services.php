@@ -1,17 +1,14 @@
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script src="https://kit.fontawesome.com/bc08f1cf31.js" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="home.css">
-    <title>Home</title>
+    <link rel="stylesheet" href="services.css">
+    <title>Services</title>
 </head>
-
 <body>
-    <div class="main">
-        <nav class="nav">
+<div class="main">
+<nav class="nav">
             <div class="logo"> <img src="imgs/smalllogo.svg" alt="logo"></div>
             <div class="links">
                 <div><span><a href="">Home</a></span></div>
@@ -44,74 +41,37 @@
                 </div>
             </div>
         </nav>
-        <div class="backgroundPhoto">
-            <div class="titleSection">
-                <h1 class="px-4 py-3">Découvrez des talents extraordinaires,<br>
-                    Explorez des créations uniques"</h1>
-                <div class="btn"><a href="books.php" class="btnMore py-3 px-5 ">Explorer plus</a></div>
-            </div>
-        </div>
-        <div class="filtre_recherche">
-            <div class="expression">
-                <h3>Chercher et filtrer sur ce que vous-aimez </h3>
-            </div>
-            <div class="inputs">
-                <form action="" method="post">
-                    <select name="" id="">
-                        <option value="">Catégorie</option>
-                        <option value=""> Beldi Couture</option>
-                        <option value=""> Soins du hammam</option>
-                        <option value=""> Beldi Cuisine</option>
-                        <option value=""> bijoux</option>
-                        <option value=""> produits naturel</option>
-                        <option value=""> recettes faites maison</option>
-                    </select>
-                </form>
-                <div class="search">
-                    <form action="" method="post">
-                        <input type="search" placeholder="search">
-                        <div class="icon"><svg width="20px" height="20px" viewBox="0 0 35 35" fill="none"
-                                xmlns="http://www.w3.org/2000/svg">
-                                <path
-                                    d="M16.4625 1.39404C24.7313 1.39404 31.425 8.08779 31.425 16.3565C31.425 24.6253 24.7313 31.319 16.4625 31.319C8.19375 31.319 1.5 24.6253 1.5 16.3565C1.5 10.529 4.82325 5.48904 9.69 3.01629"
-                                    stroke="black" stroke-width="2.33" stroke-linecap="round" stroke-linejoin="round" />
-                                <path d="M33 32.8941L29.85 29.7441" stroke="black" stroke-width="2.33"
-                                    stroke-linecap="round" stroke-linejoin="round" />
-                            </svg></div>
-                    </form>
-                </div>
-            </div>
-        </div>
+        <div class="title"><h1>Découvrez Nos Specials Recettes Faits Maison</h1></div>
         <div class="cards">
             <div class="card1">
-                <img src="imgs/img1.svg" alt="image">
-                <p>Beldi Couture</p>
+                <img src="imgs/photo1.svg" alt="image">
+                <p>Jus naturels</p>
             </div>
             <div class="card1">
-                <img src="imgs/img2.svg" alt="image">
-                <p>Soins du hammam</p>
+                <img src="imgs/photo2.svg" alt="image">
+                <p>Confitures maison</p>
             </div>
             <div class="card1">
-                <img src="imgs/img3.svg" alt="image">
-                <p>Beldi Cuisine</p>
-            </div>
-        </div>
-        <div class="cards">
-            <div class="card1">
-                <img src="imgs/img4.svg" alt="image">
-                <p>Bijoux</p>
-            </div>
-            <div class="card1">
-                <img src="imgs/img5.svg" alt="image">
-                <p>Produits naturels</p>
-            </div>
-            <div class="card1">
-                <img src="imgs/img6.svg" alt="image">
-                <p>Faites Maison</p>
+                <img src="imgs/photo3.svg" alt="image">
+                <p>Epices faits maison</p>
             </div>
         </div>
 
-    </div>
+
+        <div class="cards">
+            <div class="card1">
+                <img src="imgs/photo4.svg" alt="image">
+                <p>Glaces faits maison</p>
+            </div>
+            <div class="card1">
+                <img src="imgs/photo5.svg" alt="image">
+                <p>Glaces faits maison</p>
+            </div>
+            <div class="card1">
+                <img src="imgs/photo6.svg" alt="image">
+                <p>Les Gâteaux</p>
+            </div>
+        </div>
+</div>
 </body>
-
 </html>
