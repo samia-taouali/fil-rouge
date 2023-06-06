@@ -45,23 +45,26 @@
                 </div>
             </div>
         </nav>
-        <div class="details d-flex flex-row bd-highlight mb-2 h-100">
-            <div class="section1 col-md-2 float-start h-100">
+
+        <div class="details d-flex flex-row  h-100">
+
+            <div class="section1 col-md-2 h-100">
                 <div class="titre1">
                     <h3>Mon profil</h3>
                 </div>
                 <div class="list">
-                        <ul>
-                        <li>Mes informations</li>
-                        <li>Mes commande</li>
-                        <li>Commandes en cours</li>
-                        <li>Commandes passé</li>
+                        <ul class="p-0 text-start">
+                        <a href=""> <li class="sideBarItems px-2"> Mes informations</li></a>
+                        <a href=""> <li class="sideBarItems px-2">Mes commande</li></a> 
+                        <a href=""><li class="sideBarItems px-2">Commandes en cours</li></a>
+                        <a href=""><li class="sideBarItems px-2">Commandes passé</li></a>
                         </ul>
                 </div>
                 
             </div>
-            <div class="section2">
-                <div class="title">
+     <div class="s2  w-100">
+     <div class="section2">
+                <div class="title ">
                     <h3>Commandes en cours</h3>
                 </div>
                 <div class="cards">
@@ -89,6 +92,7 @@
                     </div>
                 </div>
             </div>
+     </div>
         </div>
     </div>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
