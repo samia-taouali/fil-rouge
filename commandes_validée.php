@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="commandes_rejeter.css">
+    <link rel="stylesheet" href="commandes_validée.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
     <title>Commandes en cours</title>
@@ -94,7 +94,8 @@
                                 <div class="adress">Adress :1234 Maple AvenueAnytown, tanger 12345</div>
                                 <div class="date">13/04/2023</div>
                                 <div class="buttons">
-                                    <input class="btn2" type="button" value="Rejeter">
+                                    <input class="btn1" type="button" value="Valider">
+                                    <input class="btn2" type="button" value="en cours">
                                 </div>
                             </form>
                         </div>
@@ -110,8 +111,8 @@
                                 <div class="adress">Adress :1234 Maple AvenueAnytown, tanger 12345</div>
                                 <div class="date">13/04/2023</div>
                                 <div class="buttons">
-
-                                    <input class="btn2" type="button" value="Rejeter">
+                                    <input class="btn1" type="button" value="Valider">
+                                    <input class="btn2" type="button" value="en cours">
                                 </div>
                             </form>
                         </div>

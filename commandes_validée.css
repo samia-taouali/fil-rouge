@@ -82,7 +82,7 @@ padding:0.5rem 0;
 display: flex;
 flex-direction: column;
 align-items: center;
-border: 1px dashed #3EB489;
+border: 2px solid#3EB489;
 padding: 1rem 2rem;
 border-radius: 5px;
 gap: 0.5rem;
@@ -122,15 +122,21 @@ flex-direction: row;
 justify-content: center;
 gap: 2rem;
 }
-.btn2{
-    border: 2px dashed red;
+.btn1{
+    border: 1px dashed #3EB489;
     border-radius: 5px;
     background-color: transparent;
-    color: red;
-    padding: 0.5rem 2rem;
+    color: black;
+    padding: 0.5rem  1.5rem;
    
 }
-
+.btn2{
+    border: none;
+    background-color: #3EB489;
+    color: white;
+    padding: 0.5rem  1.5rem;
+    border-radius: 5px;
+}
 .description{
     font-family: 'Roboto', sans-serif;
     font-weight: 500;
